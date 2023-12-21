@@ -27,3 +27,7 @@ console.log(obj);
 obj.name = 'able cajetan';
 
 console.log(obj.name);
+
+delete obj.stack;
+
+console.log(obj);
